@@ -105,11 +105,11 @@ wp_head(); ?>
 						
 							if( file_exists(get_stylesheet_directory()."/images/logo.png")):
 							
-								echo '<img src="'.get_stylesheet_directory_uri().'/images/logo.png" alt="'.esc_attr( get_bloginfo('title') ).'">';
+								echo '<img src="'.get_stylesheet_directory_uri().'/images/logo.png" class="logo" alt="'.esc_attr( get_bloginfo('title') ).'">';
 							
 							else:
 								
-								echo '<img src="'.get_template_directory_uri().'/images/logo.png" alt="'.esc_attr( get_bloginfo('title') ).'">';
+								echo '<img src="'.get_template_directory_uri().'/images/logo.png" class="logo" alt="'.esc_attr( get_bloginfo('title') ).'">';
 								
 							endif;
 

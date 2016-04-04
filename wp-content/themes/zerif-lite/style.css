@@ -137,7 +137,7 @@ padding-left: 0 !important;
 	color: #FFF;
 }
 a {
-	color: #e96656;
+	color: #28C8D1;
 	-webkit-transition: all 700ms;
 	transition: all 700ms;
 }
@@ -145,7 +145,7 @@ a,a:hover {
 	text-decoration: none;
 }
 a:hover {
-	color: #cb4332;
+	color: #2997ce;
 }
 p {
     margin: 0;
@@ -549,7 +549,7 @@ input[type="submit"] {
 	border-radius: 4px;
 	margin: 10px;
 	border: none;
-	background-color: #e96656;
+	background-color: #28c8d1;
 	box-shadow: none;
 	text-shadow: none;
 	font-weight: 400;
@@ -683,15 +683,15 @@ textarea:focus {
  **   5.1 Links                 -----
 -----------------------------------------*/
 a {
-	color: #e96656;
+	color: #28c8d1;
 }
 a:visited {
-	color: #e96656;
+	color: #28c8d1;
 }
 a:hover,
 a:focus,
 a:active {
-	color: #cb4332;
+	color: #2997ce;
 }
 /*---------------------------------------
  **   5.2 Menus                  -----
@@ -1384,7 +1384,7 @@ object {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background-image: url(images/loading.gif);
+	background-image: url(images/preloader.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: -100px 0 0 -100px;
@@ -1539,13 +1539,15 @@ object {
 
 .navbar-brand {
 	height: 76px;
-	position: relative;
+position: relative;
 	line-height: 60px;
 	padding: 7px 15px;
 	display: inline-block;
 }
 .navbar-brand > img {
-	max-height: 100%;
+	width: 50%;
+	min-width: 30%;
+	/*max-height: 100%;*/
 }
 .navbar-brand:focus {
 	border:1px dotted black;
@@ -4124,7 +4126,7 @@ article .posted-on a:hover{
 .woocommerce-page .woocommerce input[type="submit"],
 .woocommerce-page #content input.button,
 .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page input.button.alt {
-	background: #e96656;
+	background: #28c8d1;
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
@@ -5855,6 +5857,8 @@ body.custom-background {
 	#main-nav,
 	#main-nav.fixed {
 		position: relative;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	.navbar-inverse .navbar-nav {
 		padding-left: 10px;
