@@ -883,7 +883,7 @@ a:active {
 	content: "";
 	width: 35%;
 	height: 2px;
-	background: #e96656;
+	background: #28C8D1;
 	bottom: -9px;
 	left: 0;
 }
@@ -1044,7 +1044,7 @@ a:active {
 	content: "";
 	width: 10%;
 	height: 2px;
-	background: #e96656;
+	background: #28C8D1;
 	bottom: -9px;
 	left: 0;
 }
@@ -1552,7 +1552,7 @@ object {
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a.link-focus {
-	color: #e96656;
+	color: #28C8D1;
 	outline: none;
 }
 .navbar-toggle {
@@ -1564,13 +1564,13 @@ object {
 	border:1px dotted black;
 }
 .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
-	background-color: #e96656;
+	background-color: #28C8D1;
 	filter: alpha(opacity=100);
 	opacity: 1;
 	box-shadow: none;
 }
 .navbar-toggle.active{
-    background-color: #e96656 !important;
+    background-color: #28C8D1 !important;
 }
 .navbar-toggle.collapsed{
     background-color: #808080 !important;
@@ -1606,10 +1606,10 @@ object {
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #e96656;
+	color: #28C8D1;
 }
 .navbar-inverse .navbar-nav>li.current>a {
-	color: #e96656;
+	color: #28C8D1;
 	position: relative;
 	outline: none;
 }
@@ -1635,7 +1635,7 @@ ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:befo
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #e96656;
+	background: #28C8D1;
 	bottom: 0px;
 	left: 12.5%;
 	display: block;
@@ -3182,7 +3182,7 @@ article .posted-on a:hover{
 	content: "";
 	width: 10%;
 	height: 2px;
-	background: #e96656;
+	background: #28C8D1;
 	bottom: -9px;
 	left: 0;
 }
