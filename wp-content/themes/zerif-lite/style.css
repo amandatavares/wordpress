@@ -1671,7 +1671,15 @@ ul.nav > li.current_page_item.current > a:before {
 	font-size: 55px;
 	float:none;
 }
-.intro-text{
+.intro-text {
+    font-weight: 700;
+    font-size: 46px;
+    letter-spacing: 0.05em;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+}
+/*.intro-text{
 	text-align: center;
 	color: #FFF;
 	line-height: 65px;
@@ -1679,7 +1687,7 @@ ul.nav > li.current_page_item.current > a:before {
 	text-transform: uppercase;
 	font-size: 55px;
 	float:none;
-}
+}*/
 /* Short Messages */
 .bottom-message-section {
 	margin-top: 14%;
