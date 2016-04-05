@@ -184,6 +184,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
+h1{
+	font-size: 3.4em;
+	line-height: 1.3em;
+}
 p {
 	margin-bottom: 1.5em;
 }
@@ -1412,11 +1416,15 @@ object {
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 }
 .header-content-wrap {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.1);
 	position: relative;
 	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	padding: 285px 0 210px;
+
+}
+.header-content-wrap img {
+
 }
 .header_title {
     float: left;
@@ -1671,13 +1679,20 @@ ul.nav > li.current_page_item.current > a:before {
 	font-size: 55px;
 	float:none;
 }
-.intro-text {
-    font-weight: 700;
+.intro-text {   
     font-size: 46px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     padding-bottom: 5px;
     text-shadow: 1px 1px #000;
     color: #fff;
+    text-align: justify;
+    line-height: 1.3em;
+}
+.intro-text-h2 {
+    text-shadow: 0 0 5px #000;
+    color: #c6f8ff;
+    text-align: justify;
+    line-height: 1.3em;
 }
 /*.intro-text{
 	text-align: center;
@@ -2751,7 +2766,7 @@ width: -webkit-calc(100% / 4);
 .newsletter h3 {
 	font-size: 28px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 700;
 	margin-bottom: 8px;
 }
