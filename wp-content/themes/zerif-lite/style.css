@@ -2131,7 +2131,9 @@ width: -webkit-calc(100% / 4);
 	float: left;
 	height: 1px;
 }
-
+.rc-anchor-alert {
+	color: #28C8D1 !important;
+}
 .zerif_hidden_if_not_customizer {
 	display: none !important;
 }
@@ -2964,6 +2966,7 @@ width: -webkit-calc(100% / 4);
 /*---------------------------------------
  **   Footer           -----
 -----------------------------------------*/
+
 #footer {
 	background: #272727;
 	line-height: 20px;
@@ -2979,7 +2982,7 @@ width: -webkit-calc(100% / 4);
 }
 
 .company-details a:hover {
-	color: #e96656;
+	color: #28c8d1;
 }
 .company-details .icon-top {
 	font-size: 30px;
@@ -2999,10 +3002,11 @@ width: -webkit-calc(100% / 4);
 }
 .social li a {
 	color: #939393;
-	font-size: 18px;
+	font-size: 20px;
 }
+/*was e96656*/
 .social li a:hover {
-	color: #e96656;
+	color: #28c8d1;
 }
 .copyright p {
 	margin-bottom: 0;
