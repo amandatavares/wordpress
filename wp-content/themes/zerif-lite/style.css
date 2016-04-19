@@ -2973,8 +2973,8 @@ width: -webkit-calc(100% / 4);
 }
 .company-details {
 	color: #939393;
-	padding-top: 67px;
-	padding-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 20px;
 }
 .company-details a {
 	color:#939393;
@@ -2987,10 +2987,13 @@ width: -webkit-calc(100% / 4);
 .company-details .icon-top {
 	font-size: 30px;
 	margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
 }
 .copyright {
-	padding-top: 68px;
-	padding-bottom: 68px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background: #171717;
 }
 .social {
@@ -3094,6 +3097,30 @@ width: -webkit-calc(100% / 4);
 .single-project .project-information ul li span {
 	font-weight: 700;
 	margin-right: 5px;
+}
+.text-footer {		    
+	color: #FFF;	
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -45px;
+    padding-top: 45px;
+}
+/*.text-footer h3 {
+	border-bottom: 2px solid #28c8d1;
+	display: table-cell;
+	padding-bottom: 10px;
+}*/
+/*.text-footer:before {
+	content: "";
+    display: table-cell;
+    width: 71%;
+}*/
+.icons {
+	margin-right: 10px;
+}
+.side {
+	text-align: left;
+	padding-left: 8%;
 }
 /*---------------------------------------
  **   Section blog            -----
@@ -5856,15 +5883,15 @@ body.custom-background {
 	}
 	.company-details {
 		padding-top: 0;
-		padding-bottom: 33px;
+		padding-bottom: 20px;
 	}
 	.container .company-details:first-child {
 		padding-top: 40px;
 	}
 	.copyright {
 		width: 100%;
-		padding-top: 33px;
-		padding-bottom: 33px;
+		padding-top: 27px;
+		padding-bottom: 27px;
 	}
 	.container .company-details {
 		width: 100%;
@@ -6054,12 +6081,12 @@ body.custom-background {
       /* FOOTER */
 	.company-details {
 		padding-top: 0;
-		padding-bottom: 33px;
+		padding-bottom: 20px;
 	}
 	.copyright {
 		width: 100%;
-		padding-top: 33px;
-		padding-bottom: 33px;
+		padding-top: 27px;
+		padding-bottom: 27px;
 	}
 	/* comments */
 	.comment-metadata {
